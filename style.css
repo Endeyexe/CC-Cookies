@@ -58,7 +58,7 @@ header nav a {
 .company {
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 35vh;
     align-items: center;
 }
 
@@ -67,19 +67,17 @@ header nav a {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-size: cover;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 
 .section2 h1{   
     margin: 0;
     font-size: 8vw;
-    color: rgb(0, 0, 0);
     font-weight: 600;
     text-align: center;
-    
-    background-size: 500px;
-    position: relative;
-    top: 300px;
-    
+    text-shadow: 3px 3px rgb(80, 80, 80);
+
 }
 
 .section3{
@@ -92,7 +90,6 @@ header nav a {
 
 .section3 h1{   
     font-family: 'Fredericka the Great', cursive;
-
     margin: 0;
     font-size: 7vw;
     color: white;
@@ -100,8 +97,7 @@ header nav a {
     text-align: center;
     margin-top: 50px;
     flex: 1;
-    background-size: 500px;
-    background-position: center;
+
 }
 .section3 img {
     flex: 1;
