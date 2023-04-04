@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -35,11 +36,11 @@ header nav a {
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url('landing3.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url('landing3-min.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
+    background-attachment: fixed;
 }
 
 .landing h1 {
@@ -64,12 +65,16 @@ header nav a {
 
 .section2{
     background-image: url("ingredients.jpg");
-    height: 100vh;
+    height: 120vh;
     font-family: 'Roboto', sans-serif;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    background-attachment: fixed;
+
+}
+
 
 .section2 h1{   
     margin: 0;
@@ -81,11 +86,14 @@ header nav a {
 }
 
 .section3{
-    background-image: url("chalkboard.jpg");
+    background-image: url("chalkboard-min.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 140vh;
     font-family: 'Roboto', sans-serif;
     display: flex;
+    align-items: center;
+    background-attachment: fixed;
+
 }
 
 .section3 h1{   
@@ -102,4 +110,5 @@ header nav a {
 .section3 img {
     flex: 1;
     min-width: 400px;
+    max-height: 1000px;
 }
